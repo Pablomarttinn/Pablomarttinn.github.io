@@ -64,7 +64,7 @@ const CONFIG = {
     'Matlab',
     'Python',
     'Jupyter',
-    'Excel'
+    'Excel',
   ],
   experiences: [
     {
@@ -111,8 +111,7 @@ const CONFIG = {
       journalName: '',
       authors: '',
       link: '',
-      description:
-        '',
+      description:'',
     },
     {
       title: '',
