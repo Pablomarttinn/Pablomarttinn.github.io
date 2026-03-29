@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -56,51 +56,52 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'public/PabloMartin_CV', // Empty fileUrl will hide the `Download Resume` button.
+      'PabloMartin_CV', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'MySQL',
-    'Git',
+    'Git/Github',
     'Matlab',
     'Python',
     'Jupyter',
+    'Excel'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Successful Fund',
+      position: 'Investment Analyst intern',
+      from: 'April 2025',
+      to: 'July 2025',
+      companyLink: 'https://www.successfulfund.vc/en/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Arcelor Mittal R&D',
+      position: 'Financial Analyst intern',
+      from: 'June 2024',
+      to: 'August 2024',
+      companyLink: '',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Certificate in Advanced English (C1)',
+      body: 'Cambridge University Press & Assessment English',
+      year: 'June 2022',
+      link: '',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'National University of Kaohsiung (Exchange)',
+      degree: 'Beng Industrial Organization Engineering',
+      from: '2026',
+      to: '2016',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Universidad de Oviedo',
+      degree: 'Beng Industrial Organization Enginering',
+      from: '2023',
+      to: '2027',
     },
   ],
   publications: [
