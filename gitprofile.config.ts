@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['Pablomarttinn/Pablomarttinn'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -101,7 +101,7 @@ const CONFIG = {
       institution: 'National University of Kaohsiung (Exchange)',
       degree: 'Beng Industrial Organization Engineering',
       from: '2026',
-      to: '2016',
+      to: '2026',
     },
     {
       institution: 'Universidad de Oviedo',
