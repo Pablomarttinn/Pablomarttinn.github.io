@@ -51,7 +51,7 @@ const CONFIG = {
     discord: '',
     telegram: '',
     website: '',
-    phone: '+34 635669158',
+    phone: '',
     email: 'pablomrtfdez@gmail.com',
   },
   resume: {
