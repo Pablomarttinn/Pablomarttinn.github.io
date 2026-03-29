@@ -56,7 +56,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'PabloMartin_CV', // Empty fileUrl will hide the `Download Resume` button.
+      'PabloMartin_CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'MySQL',
@@ -87,6 +87,12 @@ const CONFIG = {
       name: 'Certificate in Advanced English (C1)',
       body: 'Cambridge University Press & Assessment English',
       year: 'June 2022',
+      link: '',
+    },
+    {
+      name: 'Chinese Proficiency Test (HSK III)',
+      body: 'Confucius Institute Press & Assessment Chinese',
+      year: 'June 2019',
       link: '',
     },
   ],
@@ -126,7 +132,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
