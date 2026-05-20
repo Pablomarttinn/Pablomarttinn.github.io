@@ -56,7 +56,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'PabloMartin_CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'Pablo_Martin_CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'MySQL',
@@ -67,6 +67,13 @@ const CONFIG = {
     'Excel',
   ],
   experiences: [
+    {
+      company: 'Aily Labs',
+      position: 'Data Scientist intern',
+      from: 'May 2026',
+      to: 'September 2026',
+      companyLink: 'https://www.ailylabs.com/',
+    },
     {
       company: 'Successful Fund',
       position: 'Investment Analyst intern',
